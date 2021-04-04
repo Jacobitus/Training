@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>iRock - Virtual Pet Pock</title>
+
+		<script type="text/javascript">
+			function touchRock() {
+				var userName = prompt ("What is your name?", "Enter your name, please.");
+
+				if (userName) {
+					alert("Nice to meet you, " + userName + ".");
+				document.getElementById("rockImg").src="https://pbs.twimg.com/profile_images/1247049725439815681/LRbkyT9j.jpg";
+			}
+		}
+	</script>
+	</head>
+
+	<body onload="alert('Hello, I am your pet Rocky!');">
+		<div style="margin-top:100px; text-align:center">
+		<img id="rockImg" src="https://pbs.twimg.com/profile_images/947189674170310656/ylvl8NmO.jpg" style="cursor:pointer" onclick="touchRock()" />
+		</div>
+	</body>
+</html>		 
